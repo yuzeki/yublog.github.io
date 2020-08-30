@@ -16,7 +16,7 @@ set -eu
 POST_DIR=_posts
 OUTPUT_DIR=_data
 OUTPUT_FILE=updates.yml
-
+curPath=$(readlink -f "$(dirname "$0")")
 
 _init() {
 
@@ -65,6 +65,8 @@ _dump() {
   echo "-" >> "$OUTPUT_DIR/$OUTPUT_FILE"
   echo "  filename: '$1'" >> "$OUTPUT_DIR/$OUTPUT_FILE"
   echo "  lastmod: '$_lasmod'" >> "$OUTPUT_DIR/$OUTPUT_FILE"
+  
+  python "$curPath"\\changedata.py "$_file" "$_lasmod"
 }
 
 

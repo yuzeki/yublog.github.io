@@ -1,7 +1,7 @@
 ---
 title: First Article
 author: Yuzeki
-date: 2020-08-30 17:08:41 +0800
+date: 2020-08-30 17:37:02 +0800
 categories: [Fiction]
 tags: [Sci-Fi, Unfinish]
 toc: false
