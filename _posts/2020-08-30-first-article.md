@@ -2,8 +2,8 @@
 title: First Article
 author: Yuzeki
 date: 2020-08-30 17:08:41 +0800
-categories: [Blog, Fiction, Unfinish]
-tags: [Sci-Fi]
+categories: [Fiction]
+tags: [Sci-Fi, Unfinish]
 toc: false
 ---
 ## Cat Story
