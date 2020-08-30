@@ -38,7 +38,7 @@ _has_changed() {
   local _log_count="$(git log --pretty=%ad "$1" | wc -l | sed 's/ *//')"
   _log_count=$((_log_count + 0))
 
-  if [[ $_log_count > 1 ]]; then
+  if [[ $_log_count -ge 1 ]]; then
     return 0 # true
   fi
 
