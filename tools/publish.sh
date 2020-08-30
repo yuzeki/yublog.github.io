@@ -54,6 +54,7 @@ commit() {
 
   if [[ ! -z $(git status _data -s) ]]; then
     git add _data
+    git add _posts
     if [[ $CATEGORIES = true || $TAGS = true ]]; then
       msg+=","
     else
