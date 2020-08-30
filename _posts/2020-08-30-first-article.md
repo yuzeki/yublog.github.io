@@ -2,7 +2,7 @@
 title: First Article
 author: Yuzeki
 date: 2020-08-30 17:08:41 +0800
-categories: [Fiction, Blog]
+categories: [Blog, Fiction]
 tags: [Sci-Fi]
 toc: false
 ---

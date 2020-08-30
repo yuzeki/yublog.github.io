@@ -27,8 +27,8 @@ avatar: /assets/img/avatar/喵剑士.png   # support internet resources
 github:
   username: yuzeki             # change to your github username
 
-twitter:
-  username: twitter_username            # change to your twitter username
+# twitter:
+#   username: twitter_username            # change to your twitter username
 
 social:
   name: yuzeki                  # it will shows as the copyright owner in Footer
