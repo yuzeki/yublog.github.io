@@ -1,3 +1,3 @@
 # 一个博客
 
- [Nothing to see](yuzeki.github.io)
+ [Nothing to see](https://yuzeki.github.io)
